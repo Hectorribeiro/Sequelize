@@ -49,7 +49,7 @@ name:{
         return await model.create();
         }
 
-    const findByPk = async (id) => { //Function for found by ID
+    const findByPk = async (id,pk) => { //Function for found by ID
         return await model.findByPk();
         }
 
